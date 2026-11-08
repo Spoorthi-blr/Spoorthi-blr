@@ -1,0 +1,7 @@
+def anti_vowel(text):
+  vowels=['a','e','i','o','u','A','E','I','O','U']
+  result = ""
+  for i in text:
+    if(i not in vowels):
+      result = result + i
+  return result
